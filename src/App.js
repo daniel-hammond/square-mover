@@ -11,7 +11,7 @@ function App() {
 			<WaitPanel />
 			<Square />
 			<ControlButtons delayMs={1250} />
-			<Dimensions />
+			<Dimensions debounceMs={500} />
 		</>
 	);
 }
